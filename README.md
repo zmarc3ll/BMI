@@ -1,4 +1,4 @@
-# [Név]
+# [Zuber Marcell]
 
 ## Hogyan kezdj neki?
 
