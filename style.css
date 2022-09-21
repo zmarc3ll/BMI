@@ -1,0 +1,52 @@
+
+body{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+#negyzet{
+    background-color: orange;
+}
+
+#szamitas{
+    background-color: white;
+    color: orange;
+    padding: 15px;
+    border: none;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.ertekek{
+    margin-top: auto;
+    padding: 20px;
+    color: white;
+    padding-top: 30px;
+    
+}
+
+#bmiertek{
+    color: orange;
+    margin: auto;
+    padding: 20px;
+}
+
+section{
+    width: 60%;
+    margin: auto;
+    padding-left: 40px;
+    padding-top: 15px;
+    border-bottom: 1px solid black;
+}
+
+section span{
+    margin-left: 30%;
+    text-align: center;
+}
+
+section p{
+    font-size: 22px;
+    text-align: center;
+}
