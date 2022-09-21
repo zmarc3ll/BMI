@@ -1,12 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>BMI</title>
 </head>
 <body>
-    WORKING....
+    <div id="negyzet">
+    <p class="ertekek">Írja be a cm -ben szamított test magasságát (cipő nélkül mérve):&emsp;&emsp;&emsp;&emsp; <input type="number" name="testmagassag" id="magassag" min="0">&emsp; cm</p><br>
+        <p class="ertekek">Írja be a kg -ban számított testsúlyát (cipő nélkül mérve):&emsp;&emsp;&emsp;&emsp; <input type="number" name="testsuly" id="suly" min="0">&emsp; kg</p>
+        <button id="szamitas">SZÁMÍTÁS</button>
+    </div>
+    <div>
+    <p id="bmiertek">AZ ÖN BMI ÉRTÉKE: <i> <span id="bertek"></span></i></p>
+    </div>
+
+    <section id="sovany">
+        <p>18,5 vagy kevesebb <span>SOVÁNY</span></p>
+    </section>
+
+    <section id="normal">
+        <p>18,5 - 24,9 <span>NORMÁL</span></p>
+    </section>
+
+    <section id="tulsuly">
+        <p>25 - 29,9 <span>TÚLSÚLY</span></p>
+    </section>
+
+    <section id="I">
+        <p>30 - 34,9 <span>I. FOKÚ ELHÍZÁS</span></p>
+    </section>
+
+    <section id="II">
+        <p>35 vagy 39,9 <span>II. FOKÚ ELHÍZÁS</span></p>
+    </section>
+
+    <section id="III">
+        <p>40 vagy több <span>III. FOKÚ ELHÍZÁS</span></p>
+    </section>
+
+    <script src="index.js"></script>
 </body>
 </html>
